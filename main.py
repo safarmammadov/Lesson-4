@@ -1,6 +1,11 @@
 from translate import Translator
 translator= Translator(to_lang="zh")
-translation = translator.translate("This is a pen.")
-print (translator.translate("table"))
+print ('Фира прошу внеси слова на английском языке')
+WORD = (input())
+print (translator.translate(WORD))
+
+
+
+
 
 
