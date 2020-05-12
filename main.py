@@ -1,1 +1,6 @@
-print ('hello2')
+from translate import Translator
+translator= Translator(to_lang="zh")
+translation = translator.translate("This is a pen.")
+print (translator.translate("table"))
+
+
